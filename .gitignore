@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+
+# ── 授權資料一律不進版控（見 DATA.md 第一節）──────────────
+# 原始分鐘資料來自商業供應商（啟書、TOUCHANCE），本專案無權再散布；
+# 由其重新取樣而得的 60 分 K 序列在實質上可替代原始資料，同樣不得納入。
+*.parquet
+*.csv
+*.csv.gz
+data/*
+!data/README.md
+台指期分鐘連續月*/
+
+# 舊版本
+_old/
+
+# 可再生的輸出
+results/
